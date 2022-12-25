@@ -55,7 +55,7 @@ button{
     padding: 0.5em 1em;
     max-width: 50%;
     border-radius: 20px;
-    width: 33%;
+    width: 35%;
     
 }
 .muneco{
@@ -91,7 +91,7 @@ button{
 footer{
     width: 100%;
     position:absolute;
-    top:633.5px;
+    top:635px;
     text-align: center;
 }
 }
@@ -119,6 +119,9 @@ footer{
     }
     .seccion2{
         width: 24%;
+        height: 90%;
+        margin:auto;
+        margin-top:16;
         background-color: #fff;
         border-radius: 20px;
         margin-right: 10px;
@@ -179,14 +182,11 @@ footer{
     }
     .tarjeta{
         height: 100%;
-      /*position:absolute;
-      left: 760;
-      top:100;*/
     }
     footer{
         width: 100%;
         position:absolute;
-        top:633.5px;
+        top:995px;
         text-align: center;
     }
 }
@@ -206,7 +206,7 @@ footer{
     }
     section{
         width: 48%;
-        height: 100%;
+        height: 720%;
     }  
     .seccion1{
         width: 67%;         
@@ -283,7 +283,7 @@ footer{
     footer{
         width: 100%;
         position:absolute;
-        top:763px;
+        top:853px;
         text-align: center;  
     }
   
