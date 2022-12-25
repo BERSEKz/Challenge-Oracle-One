@@ -55,7 +55,7 @@ button{
     padding: 0.5em 1em;
     max-width: 50%;
     border-radius: 20px;
-    width: 35%;
+    width: 33%;
     
 }
 .muneco{
@@ -86,9 +86,6 @@ button{
 }
 .tarjeta{
     height: 100%;
-  /*position:absolute;
-  left: 760;
-  top:100;*/
 
 }
 footer{
