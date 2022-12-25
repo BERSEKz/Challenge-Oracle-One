@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 @media (min-width: 991px) {
 body{
     background-color:#757fb2 ;
@@ -13,24 +12,19 @@ header{
     width: 100%;
     height: 50px;
 }
-
 main{
     width: 95%;
     height: 82%;
     display: flex;
     justify-content: space-between;
 }
-
 section{
     width: 48%;
     height: 100%;
 }
-
 .seccion1{
     width: 67%;
-
 }
-
 .seccion2{
     width: 24%;
     background-color: #fff;
@@ -38,9 +32,7 @@ section{
     margin-right: 10px;
      box-sizing: border-box;
     overflow: hidden;
-    
 }
-
 .mensaje{
     width: 100%;
     height: 90%;
@@ -51,7 +43,6 @@ section{
     font-size:xx-large;
     flex-wrap: nowrap;
 }
-
 button{
     all: initial;
     font:inherit;
@@ -74,8 +65,7 @@ button{
     box-sizing:border-box ;
     image:center;
     position:relative;
-    left:10%;;
-    
+    left:10%;
 }
 .texto1{
     width: 100%;
@@ -88,14 +78,12 @@ button{
     text-align:center;
     flex-wrap: nowrap;
 }
-
 .resultado{
     width: 100%;
     height: 70%;
     resize: none;
     
 }
-
 .tarjeta{
     height: 100%;
   /*position:absolute;
@@ -110,7 +98,6 @@ footer{
     text-align: center;
 }
 }
-
 @media (min-width: 768px) and (max-width: 990px) {
     body{
         background-color:  #757fb2 ;
@@ -119,24 +106,20 @@ footer{
         width: 100%;
         height: 50px;
     }
-    
     main{
         width: 95%;
         height: 82%;
         display: flex;
         justify-content: space-between;
     }
-    
     section{
         width: 48%;
         height: 100%;
     }
-    
     .seccion1{
         width: 67%;
     
     }
-    
     .seccion2{
         width: 24%;
         background-color: #fff;
@@ -144,9 +127,7 @@ footer{
         margin-right: 10px;
          box-sizing: border-box;
         overflow: hidden;
-        
     }
-    
     .mensaje{
         width: 100%;
         height: 90%;
@@ -180,7 +161,6 @@ footer{
         image:center;
         position:relative;
         left:1%;;
-        
     }
     .texto1{
         width: 100%;
@@ -195,34 +175,24 @@ footer{
         flex-wrap: nowrap;
         font-size: 10px;
     }
-    
     .resultado{
         width: 100%;
         height: 70%;
-        resize: none;
-        
+        resize: none;  
     }
-    
     .tarjeta{
         height: 100%;
       /*position:absolute;
       left: 760;
       top:100;*/
-    
     }
-
     footer{
         width: 100%;
         position:absolute;
         top:635px;
         text-align: center;
     }
-
 }
-
-
-
-
 @media (max-width: 767px) {
 
     body{
@@ -232,23 +202,18 @@ footer{
         width: 100%;
         height: 50px;
     }
-    
     main{
         width: 100%;
         height: 82%;
         justify-content: space-between;
     }
-    
     section{
         width: 48%;
         height: 100%;
-    }
-    
+    }  
     .seccion1{
-        width: 67%;       
-     
+        width: 67%;         
     }
-    
     .seccion2{
         width: 100%;
         height: 236;
@@ -260,7 +225,6 @@ footer{
         position:absolute;
         top:600;
     }
-    
     .mensaje{
         width: 149%;
         height: 90%;
@@ -271,7 +235,6 @@ footer{
         font-size:xx-large;
         flex-wrap: nowrap;
     }
-    
     button{
         all: initial;
         font:inherit;
@@ -294,8 +257,7 @@ footer{
         box-sizing:border-box ;
         image:center;
         position:relative;
-        left:1%;;
-        
+        left:1%;   
     }
     .texto1{
         width: 100%;
@@ -304,7 +266,6 @@ footer{
         font-size: 12px;
         position:sticky;
         top:35;
-     
     }
     .texto2{
         width: 100%;
@@ -313,30 +274,20 @@ footer{
         flex-wrap: nowrap;
         font-size: 10px;
     }
-    
     .resultado{
         width: 104%;
         height: 70%;
-        resize: none;
-        
-    }
-    
+        resize: none;     
+    }  
     .tarjeta{
         width: 96%;
         height: 50%;
-
-      /*position:absolute;
-      left: 760;
-      top:100;*/
-    
     }
-
     footer{
         width: 100%;
         position:absolute;
-        top:765px;
-        text-align: center;
-        
+        top:763.5px;
+        text-align: center;  
     }
   
 }
