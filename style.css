@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media (min-width: 991px) {
+body{
+    background-color:#757fb2 ;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+
+main{
+    width: 95%;
+    height: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 48%;
+    height: 100%;
+}
+
+.seccion1{
+    width: 67%;
+
+}
+
+.seccion2{
+    width: 24%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+     box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.mensaje{
+    width: 100%;
+    height: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20;
+    resize: none;
+    font-size:xx-large;
+    flex-wrap: nowrap;
+}
+
+button{
+    all: initial;
+    font:inherit;
+    cursor:pointer;
+    user-select: none;
+    color:rgb(255, 255, 255);
+    background-color:#0A3871  ;
+    text-align: center;
+    margin: 25px;
+    padding: 0.5em 1em;
+    max-width: 50%;
+    border-radius: 20px;
+    width: 35%;
+    
+}
+.muneco{
+    width: 100%;
+    height:55%;
+    padding-top: 9px;
+    box-sizing:border-box ;
+    image:center;
+    position:relative;
+    left:10%;;
+    
+}
+.texto1{
+    width: 100%;
+    height: 15%;
+    text-align:center;
+}
+.texto2{
+    width: 100%;
+    height: 35%;
+    text-align:center;
+    flex-wrap: nowrap;
+}
+
+.resultado{
+    width: 100%;
+    height: 70%;
+    resize: none;
+    
+}
+
+.tarjeta{
+    height: 100%;
+  /*position:absolute;
+  left: 760;
+  top:100;*/
+
+}
+footer{
+    width: 100%;
+    position:absolute;
+    top:635px;
+    text-align: center;
+}
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    body{
+        background-color:  #757fb2 ;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+    }
+    
+    main{
+        width: 95%;
+        height: 82%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    section{
+        width: 48%;
+        height: 100%;
+    }
+    
+    .seccion1{
+        width: 67%;
+    
+    }
+    
+    .seccion2{
+        width: 24%;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 10px;
+         box-sizing: border-box;
+        overflow: hidden;
+        
+    }
+    
+    .mensaje{
+        width: 100%;
+        height: 90%;
+        display: block;
+        margin: auto;
+        margin-top: 20;
+        resize: none;
+        font-size:xx-large;
+        flex-wrap: nowrap;
+    }
+    
+    button{
+        all: initial;
+        font:inherit;
+        cursor:pointer;
+        user-select: none;
+        color:rgb(255, 255, 255);
+        background-color:#0A3871  ;
+        text-align: center;
+        margin: 17px;
+        padding: 0.5em 1em;
+        max-width: 50%;
+        border-radius: 20px;
+        width: 35%;
+    }
+    .muneco{
+        width: 100%;
+        height:55%;
+        padding-top: 9px;
+        box-sizing:border-box ;
+        image:center;
+        position:relative;
+        left:1%;;
+        
+    }
+    .texto1{
+        width: 100%;
+        height: 15%;
+        text-align:center;
+        font-size: 12px;
+    }
+    .texto2{
+        width: 100%;
+        height: 35%;
+        text-align:center;
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    
+    .resultado{
+        width: 100%;
+        height: 70%;
+        resize: none;
+        
+    }
+    
+    .tarjeta{
+        height: 100%;
+      /*position:absolute;
+      left: 760;
+      top:100;*/
+    
+    }
+
+    footer{
+        width: 100%;
+        position:absolute;
+        top:635px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    body{
+        background-color  :#757fb2   ;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+    }
+    
+    main{
+        width: 100%;
+        height: 82%;
+        justify-content: space-between;
+    }
+    
+    section{
+        width: 48%;
+        height: 100%;
+    }
+    
+    .seccion1{
+        width: 67%;       
+     
+    }
+    
+    .seccion2{
+        width: 100%;
+        height: 236;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        overflow:hidden;
+        position:absolute;
+        top:600;
+    }
+    
+    .mensaje{
+        width: 149%;
+        height: 90%;
+        display: block;
+        margin: auto;
+        margin-top: 20;
+        resize: none;
+        font-size:xx-large;
+        flex-wrap: nowrap;
+    }
+    
+    button{
+        all: initial;
+        font:inherit;
+        cursor:pointer;
+        user-select: none;
+        color:rgb(255, 255, 255);
+        background-color:#0A3871  ;
+        text-align: center;
+        margin: 14px;
+        padding: 0.5em 1em;
+        max-width: 50%;
+        border-radius: 20px;
+        width: 35%;
+    }
+     .muneco{
+        display:none;
+        width: 100%;
+        height:55%;
+        padding-top: 9px;
+        box-sizing:border-box ;
+        image:center;
+        position:relative;
+        left:1%;;
+        
+    }
+    .texto1{
+        width: 100%;
+        height: 35%;
+        text-align:center;
+        font-size: 12px;
+        position:sticky;
+        top:35;
+     
+    }
+    .texto2{
+        width: 100%;
+        height: 100%;
+        text-align:center;
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    
+    .resultado{
+        width: 104%;
+        height: 70%;
+        resize: none;
+        
+    }
+    
+    .tarjeta{
+        width: 96%;
+        height: 50%;
+
+      /*position:absolute;
+      left: 760;
+      top:100;*/
+    
+    }
+
+    footer{
+        width: 100%;
+        position:absolute;
+        top:765px;
+        text-align: center;
+        
+    }
+  
+}
+
+
+.ocultar{
+    display: none;
+}
