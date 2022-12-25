@@ -339,7 +339,7 @@ footer{
   
 }
 
-@media (max-width: 375px) 
+/*@media (max-width: 375px) 
 {
     body{
         background-color  :#757fb2  ;
@@ -455,10 +455,7 @@ footer{
     }
     
 }
-
-
-
-
+*/
 .ocultar{
     display: none;
 }
