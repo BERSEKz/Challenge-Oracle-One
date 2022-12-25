@@ -106,7 +106,7 @@ button{
 footer{
     width: 100%;
     position:absolute;
-    top:632px;
+    top:635px;
     text-align: center;
 }
 }
@@ -208,16 +208,14 @@ footer{
     
     .tarjeta{
         height: 100%;
-    
     }
 
     footer{
-        display:none;
         width: 100%;
         position:absolute;
-        top:995px;
+        top:883px;
         text-align: center;
-    
+    }
 
 }
 
@@ -246,7 +244,8 @@ footer{
     }
     
     .seccion1{
-        width: 67%;       
+        width: 67%;  
+             
      
     }
     
@@ -280,9 +279,9 @@ footer{
         user-select: none;
         color:rgb(255, 255, 255);
         background-color:#0A3871  ;
-        text-align: center;
+        text-align:center;
         margin: 8.6px;
-        padding: 0.5em 1.2em;
+        padding: 0.5em 1.2em ;
         max-width: 50%;
         border-radius: 20px;
         width: 27%;
@@ -332,7 +331,7 @@ footer{
         position:absolute;
         top:800px;
         text-align: center;
-        
+    
     }
   
 }
