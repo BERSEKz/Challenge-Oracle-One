@@ -19,7 +19,9 @@ La letra "i" es convertida a "imes".
 La letra "o" es convertida a "ober"
 
 La letra "u" es convertida a "ufat"
+
 ✔️ Requisitos
+
 Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 Por ejemplo:
