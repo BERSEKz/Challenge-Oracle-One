@@ -315,6 +315,8 @@ footer{
         text-align:center;
         flex-wrap: nowrap;
         font-size: 10px;
+        position:sticky;
+        top: 80px;
     }
     
     .resultado{
