@@ -150,8 +150,8 @@ footer{
     }
     
     .mensaje{
-        width: 149%;
-        height:100%;
+        width: 100%;
+        height: 90%;
         display: block;
         margin: auto;
         margin-top: 20;
@@ -261,7 +261,6 @@ footer{
     }
     
     .mensaje{
-        border-radius: 20px;
         width: 149%;
         height: 100%;
         display: block;
@@ -270,6 +269,7 @@ footer{
         resize: none;
         font-size:xx-large;
         flex-wrap: nowrap;
+        border-radius: 20px;
     }
     
    button{
