@@ -211,12 +211,13 @@ footer{
     
     }
 
-    /*footer{
+    footer{
+        display:none;
         width: 100%;
         position:absolute;
         top:995px;
         text-align: center;
-    }*/
+    
 
 }
 
