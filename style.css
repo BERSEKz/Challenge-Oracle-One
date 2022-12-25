@@ -280,11 +280,15 @@ footer{
         color:rgb(255, 255, 255);
         background-color:#0A3871  ;
         text-align:center;
-        margin: 8.6px;
-        padding: 0.5em 1.2em ;
+        margin: 15px;
+        padding: 1em 2.4m ;
         max-width: 50%;
+        display:inline-block;
         border-radius: 20px;
-        width: 27%;
+        width: 37%;
+    }
+    .botones1{
+        display:flex;
     }
      .muneco{
         display:none;
