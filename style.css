@@ -260,7 +260,7 @@ footer{
         box-sizing: border-box;
         overflow:hidden;
         position:absolute;
-        top:600;
+        top:560;
     }
     
     .mensaje{
@@ -282,8 +282,8 @@ footer{
         color:rgb(255, 255, 255);
         background-color:#0A3871  ;
         text-align: center;
-        margin: 9px;
-        padding: 0.5em 1em;
+        margin: 8.6px;
+        padding: 0.5em 1.2em;
         max-width: 50%;
         border-radius: 20px;
         width: 27%;
@@ -331,7 +331,7 @@ footer{
     footer{
         width: 100%;
         position:absolute;
-        top:853px;
+        top:800px;
         text-align: center;
         
     }
