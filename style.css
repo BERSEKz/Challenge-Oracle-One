@@ -245,7 +245,6 @@ footer{
     
     .seccion1{
         width: 67%;  
-             
      
     }
     
@@ -272,7 +271,7 @@ footer{
         flex-wrap: nowrap;
     }
     
-    button{
+   button{
         all: initial;
         font:inherit;
         cursor:pointer;
@@ -281,14 +280,14 @@ footer{
         background-color:#0A3871  ;
         text-align:center;
         margin: 15px;
-        padding: 1em 2.4m ;
+        padding: 1em 2.4em ;
         max-width: 50%;
         display:inline-block;
         border-radius: 20px;
-        width: 37%;
+        width: 37%;    
     }
-    .botones1{
-        display:flex;
+    .botones1 {
+        display: flex;
     }
      .muneco{
         display:none;
