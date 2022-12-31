@@ -30,6 +30,18 @@ function validarmensaje(){
 
 
 function encriptar(){  
+    
+    var mensaje= inputMensaje.value;
+    let letrasValidas = "abcdefghijklmnñopqrstuvwxyz ";
+    let mensajeError = document.createDocumentFragment();
+    for (let letra of mensaje){
+        if (!letrasValidas.includes(letra)){
+            let p = document.createElement ("p");
+            p.setAttribute("class","error");
+            alert ("El mensaje ingresado no es valido, recuerda que solo son palabras en minuscula y sin numeros o caracteres especiales");
+            return;
+        }
+    }
     ocultaradelante()
     var mensajeEncriptado = inputMensaje.value;
     var mensaje = mensajeEncriptado
