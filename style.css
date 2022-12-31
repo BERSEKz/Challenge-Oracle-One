@@ -343,10 +343,11 @@ footer{
   
 }
 
-/*@media (max-width: 375px) 
-{
+
+@media (min-width: 481px) and (max-width: 767px) {
+
     body{
-        background-color  :#757fb2  ;
+        background-color  :#1c290e  ;
     }
     header{
         width: 100%;
@@ -457,9 +458,367 @@ footer{
         top:690px;
         text-align: center;
     }
+  
+
+  }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        background-color  :#b2757d  ;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+    }
     
-}
-*/
+    main{
+        width: 100%;
+        height: 82%;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    section{
+        width: 48%;
+        height: 72%;
+    }
+    
+    .seccion1{
+        width: 67%;
+    }
+    
+    .seccion2{
+        width: 100%;
+        height: 23%;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        overflow:hidden;
+        position:absolute;
+        top:500;
+    }
+    
+    .mensaje{
+        width: 149%;
+        height: 80%;
+        display: block;
+        margin: auto;
+        margin-top: 20;
+        resize: none;
+        font-size:xx-large;
+        flex-wrap: nowrap;
+    }
+    
+    button{
+        all: initial;
+        font:inherit;
+        cursor:pointer;
+        user-select: none;
+        color:rgb(255, 255, 255);
+        background-color:#0A3871  ;
+        text-align:center;
+        margin: 15px;
+        padding: 1em 2.4em ;
+        max-width: 50%;
+        display:inline-block;
+        border-radius: 20px;
+        width: 37%;    
+    }
+    .botones1 {
+        display: flex;
+    }
+     .muneco{
+        display:none;
+        width: 100%;
+        height:55%;
+        padding-top: 9px;
+        box-sizing:border-box ;
+        image:center;
+        position:relative;
+        left:1%;;
+        
+    }
+    .texto1{
+        width: 100%;
+        height: 35%;
+        text-align:center;
+        font-size: 12px;
+        position:sticky;
+        top:35;
+     
+    }
+    .texto2{
+        width: 100%;
+        height: 100%;
+        text-align:center;
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    
+    .resultado{
+        width: 104%;
+        height: 70%;
+        resize: none;
+        
+    }
+    
+    .tarjeta{
+        width: 96%;
+        height: 50%;
+    }
+
+    footer{
+        width: 100%;
+        height: 1;
+        position:absolute;
+        top:690px;
+        text-align: center;
+    }
+
+
+  }
+
+  @media (min-width: 412px) and (max-width: 915px) {
+    body{
+        background-color  :#0e0c0c  ;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+    }
+    
+    main{
+        width: 100%;
+        height: 82%;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    section{
+        width: 48%;
+        height: 72%;
+    }
+    
+    .seccion1{
+        width: 67%;
+    }
+    
+    .seccion2{
+        width: 100%;
+        height: 23%;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        overflow:hidden;
+        position:absolute;
+        top:590;
+    }
+    
+    .mensaje{
+        width: 149%;
+        height: 80%;
+        display: block;
+        margin: auto;
+        margin-top: 20;
+        resize: none;
+        font-size:xx-large;
+        flex-wrap: nowrap;
+    }
+    
+    button{
+        all: initial;
+        font:inherit;
+        cursor:pointer;
+        user-select: none;
+        color:rgb(255, 255, 255);
+        background-color:#0A3871  ;
+        text-align:center;
+        margin: 15px;
+        padding: 1em 2.4em ;
+        max-width: 50%;
+        display:inline-block;
+        border-radius: 20px;
+        width: 37%;    
+    }
+    .botones1 {
+        display: flex;
+    }
+     .muneco{
+        display:none;
+        width: 100%;
+        height:55%;
+        padding-top: 9px;
+        box-sizing:border-box ;
+        image:center;
+        position:relative;
+        left:1%;;
+        
+    }
+    .texto1{
+        width: 100%;
+        height: 35%;
+        text-align:center;
+        font-size: 12px;
+        position:sticky;
+        top:35;
+     
+    }
+    .texto2{
+        width: 100%;
+        height: 100%;
+        text-align:center;
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    
+    .resultado{
+        width: 104%;
+        height: 70%;
+        resize: none;
+        
+    }
+    
+    .tarjeta{
+        width: 96%;
+        height: 50%;
+    }
+
+    footer{
+        width: 100%;
+        height: 1;
+        position:absolute;
+        top:830px;
+        text-align: center;
+    }
+
+
+
+  }
+
+  @media (min-width: 390px) and (width: 844px) {
+    body{
+        background-color  :#0e0c0c  ;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+    }
+    
+    main{
+        width: 100%;
+        height: 82%;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    section{
+        width: 48%;
+        height: 72%;
+    }
+    
+    .seccion1{
+        width: 67%;
+    }
+    
+    .seccion2{
+        width: 100%;
+        height: 23%;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        overflow:hidden;
+        position:absolute;
+        top:555;
+    }
+    
+    .mensaje{
+        width: 149%;
+        height: 80%;
+        display: block;
+        margin: auto;
+        margin-top: 20;
+        resize: none;
+        font-size:xx-large;
+        flex-wrap: nowrap;
+    }
+    
+    button{
+        all: initial;
+        font:inherit;
+        cursor:pointer;
+        user-select: none;
+        color:rgb(255, 255, 255);
+        background-color:#0A3871  ;
+        text-align:center;
+        margin: 15px;
+        padding: 1em 2.4em ;
+        max-width: 50%;
+        display:inline-block;
+        border-radius: 20px;
+        width: 37%;    
+    }
+    .botones1 {
+        display: flex;
+    }
+     .muneco{
+        display:none;
+        width: 100%;
+        height:55%;
+        padding-top: 9px;
+        box-sizing:border-box ;
+        image:center;
+        position:relative;
+        left:1%;;
+        
+    }
+    .texto1{
+        width: 100%;
+        height: 35%;
+        text-align:center;
+        font-size: 12px;
+        position:sticky;
+        top:35;
+     
+    }
+    .texto2{
+        width: 100%;
+        height: 100%;
+        text-align:center;
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    
+    .resultado{
+        width: 104%;
+        height: 70%;
+        resize: none;
+        
+    }
+    
+    .tarjeta{
+        width: 96%;
+        height: 50%;
+    }
+
+    footer{
+        width: 100%;
+        height: 1;
+        position:absolute;
+        top:770px;
+        text-align: center;
+    }
+
+    
+    
+  }
+
+
 .ocultar{
     display: none;
 }
